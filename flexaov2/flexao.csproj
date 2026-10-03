@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net45</TargetFramework>
+    <OutputType>Library</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <!-- Referências visuais inseridas para a JanelaParametros (Windows Forms) -->
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="NXOpen">
+      <HintPath>C:\Program Files\Siemens\NX 9.0\UGII\managed\NXOpen.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    
+    <Reference Include="NXOpen.UF">
+      <HintPath>C:\Program Files\Siemens\NX 9.0\UGII\managed\NXOpen.UF.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    
+    <Reference Include="NXOpen.Utilities">
+      <HintPath>C:\Program Files\Siemens\NX 9.0\UGII\managed\NXOpen.Utilities.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    
+    <Reference Include="NXOpenUI">
+      <HintPath>C:\Program Files\Siemens\NX 9.0\UGII\managed\NXOpenUI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    
+    <!-- Em NX 9.0 as classes NXOpen.CAM.* estão dentro do próprio NXOpen.dll (sem DLL separada) -->
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <!-- ADICIONE ESTA LINHA ABAIXO -->
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+  </ItemGroup>
+
+</Project>

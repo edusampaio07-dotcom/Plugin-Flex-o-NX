@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\trion\\Downloads\\Plugin-Flex-o-NX-main\\Plugin-Flex-o-NX-main\\flexaov2\\flexao.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\trion\\Downloads\\Plugin-Flex-o-NX-main\\Plugin-Flex-o-NX-main\\flexaov2\\flexao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\trion\\Downloads\\Plugin-Flex-o-NX-main\\Plugin-Flex-o-NX-main\\flexaov2\\flexao.csproj",
+        "projectName": "flexao",
+        "projectPath": "c:\\Users\\trion\\Downloads\\Plugin-Flex-o-NX-main\\Plugin-Flex-o-NX-main\\flexaov2\\flexao.csproj",
+        "packagesPath": "C:\\Users\\trion\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\trion\\Downloads\\Plugin-Flex-o-NX-main\\Plugin-Flex-o-NX-main\\flexaov2\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\trion\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "framework": "net45",
+            "targetAlias": "net45",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "net45": {
+          "framework": "net45",
+          "targetAlias": "net45",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

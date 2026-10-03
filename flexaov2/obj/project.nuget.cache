@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PYnACW5wfiw=",
+  "success": true,
+  "projectFilePath": "c:\\Users\\trion\\Downloads\\Plugin-Flex-o-NX-main\\Plugin-Flex-o-NX-main\\flexaov2\\flexao.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\trion\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\trion\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net45\\1.0.3\\microsoft.netframework.referenceassemblies.net45.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
