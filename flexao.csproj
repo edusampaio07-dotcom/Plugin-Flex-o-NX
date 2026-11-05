@@ -33,11 +33,8 @@
       <Private>False</Private>
     </Reference>
     
-    <!-- Mantido do nosso código antigo: essencial para ler as trajetórias de usinagem -->
-   <Reference Include="NXOpen.CAM">
-      <HintPath>C:\Program Files\Siemens\NX 9.0\UGII\managed\NXOpen.CAM.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
+    <!-- Em NX 9.0 as classes NXOpen.CAM.* estão dentro do próprio NXOpen.dll (sem DLL separada) -->
+
   </ItemGroup>
 
   <ItemGroup>
